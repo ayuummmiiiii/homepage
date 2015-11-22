@@ -1,0 +1,291 @@
+@charset"UTF8";
+
+*,html{
+	margin:0;
+	padding:0;
+}
+
+
+.body{
+	width:1050px;
+	height:auto;
+	margin: auto;
+
+}
+.header{
+	width:1050px;
+
+}
+
+
+.logo{
+	display:block;
+	margin:0 auto;
+	margin-top:40px; 
+}
+.menu_nav{
+	width:1050px;
+	margin:0 auto; 
+	margin-top:65px;
+
+
+}
+
+.menu_nav li{
+	list-style:none;
+	display:inline-block;
+	width:20%;
+
+}
+
+.menu_nav li img{
+	display:block; 
+	margin:0 auto;
+    text-align:center; 
+
+}
+
+
+
+
+.main_banner{
+	width:100%;
+	height:auto;
+
+}
+
+.shoes_01{
+	width:1050px; 
+	margin:0 auto;
+	margin-top:70px; 
+
+}
+
+.shoes_01 li{
+	display:inline-block;
+	margin:auto 68px auto 0;
+
+}
+
+.shoes_01 li:last-child{
+	margin-right:0; 
+
+}
+
+.shoes_02{
+	width:1050px; 
+	margin:0 auto;
+	margin-top:70px; 
+
+}
+
+.shoes_02 li{
+	display:inline-block;
+	margin:auto 68px auto 0;
+
+}
+.shoes_02 li:last-child{
+	margin-right:0; 
+
+}
+
+
+.shoes_03{
+	width:1050px; 
+    margin:0 auto;
+    margin-top:70px; 
+
+}
+
+.shoes_03 li{
+	display:inline-block;
+	margin:auto 68px auto 0;
+
+}
+
+.shoes_03 li:last-child{
+	margin-right:0; 
+
+}
+
+
+.topics_box{
+
+	width:510px;
+	height:325px;
+	margin:0 25px 0 auto;
+	float:left;
+}
+.topics_box p{
+	font-size:20px 
+
+}
+
+.topics_img{
+	border-bottom:solid 2px;
+
+}
+
+.info_box{
+	width:510px;
+	height:325px;
+	margin:0 auto;
+	float:right;
+
+}
+.info_box p{
+	font-size:20px 
+
+}
+.info_img{
+		border-bottom:solid 2px;
+	
+}
+
+.shop_box{
+	float:left;
+	clear:both; 
+
+}
+
+.shop_img{
+		border-bottom:solid 2px;
+
+}
+.map{
+
+}
+
+@media screen and (max-width:600px){
+.body{
+	width:100%;
+}
+.header{
+	width:100%;
+}
+
+
+.logo{
+	display:block;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;  
+	width:20%;
+}
+.menu_nav{
+	display:none;
+}
+
+
+.main_banner{
+	width:100%;
+	height:auto;
+
+}
+
+.shoes_01{
+	width:100%; 
+	margin-top:0; 
+}
+
+.shoes_01 li {
+	display: block;
+	width: 100%;
+}
+
+.shoes_01 li img{
+	display:block;
+	margin:0 auto;
+}
+
+
+.shoes_01 li:last-child{
+	margin-right:0; 
+
+}
+
+.shoes_02{
+	width:100%; 
+	margin-top:0; 
+
+}
+
+.shoes_02 li{
+	display:block;
+	width:100%;
+
+}
+
+.shoes_02 li img{
+	display:block;
+	margin:0 auto;
+}
+
+.shoes_02 li:last-child{
+	margin-right:0; 
+
+}
+
+
+.shoes_03{
+	display:none;  	
+
+}
+
+
+
+
+
+.topics_box{
+
+	width:100%;
+	height:325px;
+	float:center;
+
+}
+.topics_box p{
+	font-size:20px 
+
+}
+
+.topics_img{
+	border-bottom:solid 2px;
+
+}
+
+.info_box{
+	width:100%;
+	height:325px;
+	margin:0 auto;
+	float:center;
+
+}
+.info_box p{
+	font-size:20px 
+
+}
+.info_img{
+		border-bottom:solid 2px;
+	
+}
+
+.shop_box{
+
+	clear:both; 
+
+}
+
+.shop_img{
+	width:100%;
+		border-bottom:solid 2px;
+
+}
+.map_img{
+	width:100%;
+}
+.map{
+
+}
+}
+
+
